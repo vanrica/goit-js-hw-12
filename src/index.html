@@ -33,11 +33,13 @@
         <button type="submit">Search</button>
       </form>
 
-      <div class="loader-wrap is-hidden" aria-live="polite">
+      <ul class="gallery"></ul>
+
+      <button type="button" class="load-more" hidden>Load more</button>
+
+      <div class="loader-wrap" hidden aria-live="polite">
         <span class="loader"></span>
       </div>
-
-      <ul class="gallery"></ul>
     </main>
 
     <script type="module" src="/main.js"></script>
